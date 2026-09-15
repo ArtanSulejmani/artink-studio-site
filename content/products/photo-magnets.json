@@ -1,0 +1,23 @@
+{
+  "slug": "photo-magnets",
+  "code": "",
+  "category": "magnets",
+  "active": true,
+  "featured": false,
+  "name_en": "Photo magnets",
+  "name_mk": "Магнети со фотографија",
+  "name_sq": "Magnetë me fotografi",
+  "short_en": "The moments you want to keep close.",
+  "short_mk": "Спомени што остануваат во близина.",
+  "short_sq": "Kujtime që i mbani pranë.",
+  "description_en": "Personalised magnets for celebrations and small business promotions. Send the artwork, size and quantity.",
+  "description_mk": "Персонализирани магнети за прослави и промоции. Испратете слика, димензии и количина.",
+  "description_sq": "Magnetë të personalizuar për festa dhe promovim biznesi. Dërgoni foton, përmasat dhe sasinë.",
+  "options": "Photo print, custom sizes",
+  "images": [
+    "/images/hero.webp"
+  ],
+  "colors": [],
+  "sizes": [],
+  "stock": []
+}

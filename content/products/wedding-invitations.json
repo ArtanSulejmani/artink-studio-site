@@ -1,0 +1,31 @@
+{
+  "slug": "wedding-invitations",
+  "code": "",
+  "category": "invitations",
+  "active": true,
+  "featured": true,
+  "name_en": "Wedding invitations",
+  "name_mk": "Покани за свадби",
+  "name_sq": "Ftesa për dasma",
+  "short_en": "Your story starts on paper.",
+  "short_mk": "Вашата приказна започнува на хартија.",
+  "short_sq": "Historia juaj fillon në letër.",
+  "description_en": "Share the date, names, wording, quantity and a design reference. We can discuss print finishes and a custom cut detail.",
+  "description_mk": "Испратете датум, имиња, текст, количина и пример за стил. Може да договориме печат и персонализиран исечок.",
+  "description_sq": "Dërgoni datën, emrat, tekstin, sasinë dhe një referencë stili. Mund të diskutojmë printimin dhe prerje të personalizuar.",
+  "options": "Paper, custom cutting",
+  "images": [
+    "/images/invitation.webp",
+    "/images/hero.webp"
+  ],
+  "colors": [
+    {
+      "name": "Cream",
+      "hex": "#e8dcc4",
+      "name_mk": "Крем",
+      "name_sq": "Krem"
+    }
+  ],
+  "sizes": [],
+  "stock": []
+}

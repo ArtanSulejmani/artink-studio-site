@@ -1,0 +1,79 @@
+backend:
+  name: github
+  repo: ArtanSulejmani/artink-studio-site
+  branch: main
+media_folder: static/images/uploads
+public_folder: /images/uploads
+publish: true
+collections:
+  - name: products
+    label: Products
+    label_singular: Product
+    folder: content/products
+    create: true
+    delete: true
+    extension: json
+    format: json
+    slug: "{{fields.slug}}"
+    summary: "{{fields.name_en}} · {{fields.code}}"
+    fields:
+      - {label: "URL slug (latin letters, unique)", name: slug, widget: string, pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', 'Use lowercase latin letters, numbers and hyphens']}
+      - {label: "Product code", name: code, widget: string, required: false}
+      - {label: "Model", name: model, widget: string, required: false}
+      - {label: "Brand / manufacturer", name: brand, widget: string, required: false}
+      - {label: "Material", name: material, widget: string, required: false}
+      - {label: "Material · English (optional translation)", name: material_en, widget: string, required: false}
+      - {label: "Material · Macedonian (optional translation)", name: material_mk, widget: string, required: false}
+      - {label: "Material · Albanian (optional translation)", name: material_sq, widget: string, required: false}
+      - {label: "Weight (e.g. 150 g/m²)", name: weight, widget: string, required: false}
+      - {label: "Packaging (e.g. 100/10/1)", name: packaging, widget: string, required: false}
+      - {label: "Collection / related family", name: collection, widget: string, required: false, hint: "Products with the same collection appear first under Similar products."}
+      - {label: "Category", name: category, widget: select, options: [tshirts, hoodies, mugs, magnets, caps, invitations, gifts]}
+      - {label: "Visible in catalogue", name: active, widget: boolean, default: true}
+      - {label: "Featured", name: featured, widget: boolean, default: false}
+      - {label: "Name · English", name: name_en, widget: string}
+      - {label: "Name · Macedonian", name: name_mk, widget: string}
+      - {label: "Name · Albanian", name: name_sq, widget: string}
+      - {label: "Short description · English", name: short_en, widget: text}
+      - {label: "Short description · Macedonian", name: short_mk, widget: text}
+      - {label: "Short description · Albanian", name: short_sq, widget: text}
+      - {label: "Full description · English", name: description_en, widget: text}
+      - {label: "Full description · Macedonian", name: description_mk, widget: text}
+      - {label: "Full description · Albanian", name: description_sq, widget: text}
+      - {label: "Materials / options (comma separated)", name: options, widget: string, required: false}
+      - {label: "Images", name: images, widget: list, field: {label: Image, name: image, widget: image}, min: 1, max: 10, hint: "Use compressed WebP/JPG images where possible."}
+      - label: "Available colours"
+        name: colors
+        widget: list
+        required: false
+        fields:
+          - {label: "Colour name", name: name, widget: string}
+          - {label: "Name · Macedonian", name: name_mk, widget: string, required: false}
+          - {label: "Name · Albanian", name: name_sq, widget: string, required: false}
+          - {label: "Swatch hex (#000000)", name: hex, widget: string, pattern: ['^#[0-9a-fA-F]{6}$', 'Enter a 6-digit hex colour such as #000000']}
+      - {label: "Available sizes", name: sizes, widget: select, multiple: true, required: false, options: [XS, S, M, L, XL, 2XL], hint: "Leave empty for mugs, invitations and other non-sized products."}
+      - label: "Stock by colour and size (optional)"
+        name: stock
+        widget: list
+        required: false
+        hint: "If no row is entered, the site says to ask for availability. Quantity 0 is displayed as unavailable. Edit stock and publish again to update the static website."
+        fields:
+          - {label: "Colour name (exactly as above)", name: color, widget: string}
+          - {label: "Size (leave empty when not applicable)", name: size, widget: select, required: false, options: [XS, S, M, L, XL, 2XL]}
+          - {label: "Quantity", name: quantity, widget: number, min: 0, value_type: int}
+  - name: catalog
+    label: Digital catalogue
+    files:
+      - name: lookbook
+        label: Catalogue cover and PDF
+        file: content/catalog.json
+        format: json
+        fields:
+          - {label: "Title · English", name: title_en, widget: string}
+          - {label: "Title · Macedonian", name: title_mk, widget: string}
+          - {label: "Title · Albanian", name: title_sq, widget: string}
+          - {label: "Intro · English", name: intro_en, widget: text}
+          - {label: "Intro · Macedonian", name: intro_mk, widget: text}
+          - {label: "Intro · Albanian", name: intro_sq, widget: text}
+          - {label: "Cover image", name: cover_image, widget: image}
+          - {label: "Optional PDF catalogue", name: pdf_file, widget: file, required: false, hint: "Upload your finished PDF; the site then displays an Open PDF button and embedded viewer."}

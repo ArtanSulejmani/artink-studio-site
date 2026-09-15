@@ -1,0 +1,50 @@
+{
+  "slug": "custom-hoodies",
+  "code": "",
+  "category": "hoodies",
+  "active": true,
+  "featured": true,
+  "name_en": "Custom hoodies",
+  "name_mk": "Дуксери со принт",
+  "name_sq": "Hoodie me printim",
+  "short_en": "A warmer canvas for your brand.",
+  "short_mk": "Удобна основа за вашиот бренд.",
+  "short_sq": "Një bazë e rehatshme për markën tuaj.",
+  "description_en": "Personalised hoodies for teams, businesses and gifts. Tell us the garment colour, sizes and print placement.",
+  "description_mk": "Дуксери за тимови, фирми и подароци. Кажете ни боја, големини и позиција за принт.",
+  "description_sq": "Hoodie për ekipe, biznese dhe dhurata. Na tregoni ngjyrën, madhësitë dhe vendin e printimit.",
+  "options": "Cotton blends, DTF",
+  "images": [
+    "/images/hoodie.webp",
+    "/images/hero.webp"
+  ],
+  "model": "Custom print",
+  "collection": "Everyday textile",
+  "material": "Selected garment blend",
+  "colors": [
+    {
+      "name": "Black",
+      "hex": "#171717",
+      "name_mk": "Црна",
+      "name_sq": "E zezë"
+    },
+    {
+      "name": "White",
+      "hex": "#f6f6f2",
+      "name_mk": "Бела",
+      "name_sq": "E bardhë"
+    }
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "stock": [],
+  "material_en": "Selected garment blend",
+  "material_mk": "Состав според избраниот дуксер",
+  "material_sq": "Përbërje sipas hoodie të zgjedhur"
+}

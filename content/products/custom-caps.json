@@ -1,0 +1,30 @@
+{
+  "slug": "custom-caps",
+  "code": "",
+  "category": "caps",
+  "active": true,
+  "featured": false,
+  "name_en": "Custom caps",
+  "name_mk": "Капи со персонализација",
+  "name_sq": "Kapele të personalizuara",
+  "short_en": "A small detail with a lasting impression.",
+  "short_mk": "Мал детал што се забележува.",
+  "short_sq": "Një detaj i vogël që bie në sy.",
+  "description_en": "Caps for teams, events and branded gifts. Send your artwork and quantity to discuss suitable models and application.",
+  "description_mk": "Капи за тимови, настани и подароци. Испратете дизајн и количина за да одбереме модел и техника.",
+  "description_sq": "Kapele për ekipe, evente dhe dhurata. Dërgoni dizajnin dhe sasinë për të zgjedhur modelin dhe teknikën.",
+  "options": "Various models, print options",
+  "images": [
+    "/images/hero.webp"
+  ],
+  "colors": [
+    {
+      "name": "Black",
+      "hex": "#171717",
+      "name_mk": "Црна",
+      "name_sq": "E zezë"
+    }
+  ],
+  "sizes": [],
+  "stock": []
+}

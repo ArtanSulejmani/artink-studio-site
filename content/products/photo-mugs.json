@@ -1,0 +1,32 @@
+{
+  "slug": "photo-mugs",
+  "code": "",
+  "category": "mugs",
+  "active": true,
+  "featured": true,
+  "name_en": "Personalised photo mugs",
+  "name_mk": "Персонализирани чаши",
+  "name_sq": "Filxhanë të personalizuar",
+  "short_en": "A daily object, made personal.",
+  "short_mk": "Секојдневна чаша со личен печат.",
+  "short_sq": "Një objekt i përditshëm, i bërë personal.",
+  "description_en": "Send a photo, logo or message. We prepare a print-ready mug design and confirm the final layout before production.",
+  "description_mk": "Испратете фотографија, лого или порака. Подготвуваме дизајн и го потврдуваме изгледот пред изработка.",
+  "description_sq": "Dërgoni një foto, logo ose mesazh. Përgatisim dizajnin dhe e konfirmojmë pamjen përpara prodhimit.",
+  "options": "Ceramic, sublimation",
+  "images": [
+    "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=1000&q=80"
+  ],
+  "model": "Ceramic mug",
+  "material": "Ceramic",
+  "colors": [
+    {
+      "name": "White",
+      "hex": "#f9f9f7",
+      "name_mk": "Бела",
+      "name_sq": "E bardhë"
+    }
+  ],
+  "sizes": [],
+  "stock": []
+}

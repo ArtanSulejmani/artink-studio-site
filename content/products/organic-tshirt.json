@@ -1,0 +1,53 @@
+{
+  "slug": "organic-tshirt",
+  "code": "",
+  "category": "tshirts",
+  "active": true,
+  "featured": false,
+  "model": "Blank garment for personalisation",
+  "brand": "",
+  "material": "Material confirmed for chosen model",
+  "weight": "",
+  "packaging": "",
+  "collection": "Everyday textile",
+  "name_en": "Organic T-shirt for printing",
+  "name_mk": "Органска маичка за печатење",
+  "name_sq": "Bluzë organike për printim",
+  "short_en": "A softer blank for your custom artwork.",
+  "short_mk": "Удобна маичка за твојот дизајн.",
+  "short_sq": "Një bluzë e rehatshme për dizajnin tënd.",
+  "description_en": "This is a category example. We confirm the exact manufacturer, fibre composition, available colours and sizes when preparing your quote.",
+  "description_mk": "Ова е пример за категоријата. Точниот производител, состав, бои и големини ги потврдуваме при подготовка на понуда.",
+  "description_sq": "Ky është një shembull i kategorisë. Prodhuesin, përbërjen, ngjyrat dhe madhësitë i konfirmojmë gjatë përgatitjes së ofertës.",
+  "options": "DTF or suitable print technique",
+  "images": [
+    "/images/tshirt.webp",
+    "/images/hero.webp"
+  ],
+  "colors": [
+    {
+      "name": "Black",
+      "hex": "#171717",
+      "name_mk": "Црна",
+      "name_sq": "E zezë"
+    },
+    {
+      "name": "White",
+      "hex": "#f6f6f2",
+      "name_mk": "Бела",
+      "name_sq": "E bardhë"
+    }
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "stock": [],
+  "material_en": "Composition confirmed for chosen model",
+  "material_mk": "Составот се потврдува за избраниот модел",
+  "material_sq": "Përbërja konfirmohet për modelin e zgjedhur"
+}

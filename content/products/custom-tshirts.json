@@ -1,0 +1,50 @@
+{
+  "slug": "custom-tshirts",
+  "code": "",
+  "category": "tshirts",
+  "active": true,
+  "featured": true,
+  "name_en": "Custom printed T-shirts",
+  "name_mk": "Маички со персонализиран принт",
+  "name_sq": "Bluza me printim të personalizuar",
+  "short_en": "Make your team, event or idea wearable.",
+  "short_mk": "За тим, настан или личен подарок.",
+  "short_sq": "Për ekipin, eventin ose një dhuratë personale.",
+  "description_en": "Choose a garment and share your design, preferred print position, sizes and quantity. We will advise on the appropriate printing technique.",
+  "description_mk": "Изберете маичка и испратете дизајн, позиција за печатење, големини и количина. Ќе предложиме соодветна техника.",
+  "description_sq": "Zgjidhni bluzën dhe na dërgoni dizajnin, pozicionin e printimit, madhësitë dhe sasinë. Ne sugjerojmë teknikën e përshtatshme.",
+  "options": "Cotton, DTF, front / back",
+  "images": [
+    "/images/tshirt.webp",
+    "/images/hero.webp"
+  ],
+  "model": "Custom print",
+  "collection": "Everyday textile",
+  "material": "Cotton or selected garment blend",
+  "colors": [
+    {
+      "name": "Black",
+      "hex": "#171717",
+      "name_mk": "Црна",
+      "name_sq": "E zezë"
+    },
+    {
+      "name": "White",
+      "hex": "#f6f6f2",
+      "name_mk": "Бела",
+      "name_sq": "E bardhë"
+    }
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "stock": [],
+  "material_en": "Cotton or selected garment blend",
+  "material_mk": "Памук или состав според избраниот модел",
+  "material_sq": "Pambuk ose përbërje sipas modelit të zgjedhur"
+}

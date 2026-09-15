@@ -1,0 +1,1 @@
+{"name":"artink-studio-catalog","private":true,"version":"1.0.0","type":"module","scripts":{"build":"node scripts/build.mjs","preview":"node scripts/preview.mjs","dev":"node scripts/build.mjs && node scripts/preview.mjs"}}
