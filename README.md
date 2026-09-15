@@ -14,8 +14,8 @@ The build checks unique URL slugs, supported categories, required translations, 
 
 ## GitHub and Netlify setup
 
-1. Create a GitHub repository named `artink-studio-site` under `ArtanSulejmani`. Upload this project's **contents** to the repository root, including `netlify.toml`, `scripts`, `content` and `static`. Keep `dist` out of Git. If you choose another repo name, update `static/admin/config.yml` → `backend.repo`.
-2. In Netlify, add a new project from this GitHub repository and deploy its `main` branch. The build/publish settings are already in `netlify.toml`.
+1. The source is already pushed to `ArtanSulejmani/artink-studio-site` on GitHub `main`; the generated `dist` stays out of Git.
+2. The Netlify project `artink-studio-site` already exists, but does not have a live deploy yet. In its Netlify dashboard, connect this GitHub repository to continuous deployment and choose `main`. Netlify will build the source using the included `netlify.toml` and publish `dist`. Confirm the project visitor access is public before sharing the URL; its current access-control response reports team SSO for all projects.
 3. In GitHub **Settings → Developer settings → OAuth Apps → New OAuth App**, create an app named `ArtInk Studio Editor`. Use the site's Netlify URL as Homepage URL and `https://api.netlify.com/auth/done` as Authorization callback URL. Copy its Client ID; generate a Client Secret.
 4. In Netlify, open **Project configuration → Access & security → OAuth → Install Provider**, choose **GitHub**, and enter the Client ID and Client Secret **there**. Keep the secret in Netlify; never put it in Git, a product record, or a chat message.
 5. Visit `https://YOUR-SITE.netlify.app/admin/`, sign in with a GitHub user who has write access to that repository, then create, edit, unpublish or delete a product. Publishing in the editor commits JSON/images to GitHub and triggers the next Netlify deploy. Check one new product URL after the deploy finishes.
