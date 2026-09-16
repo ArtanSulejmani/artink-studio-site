@@ -10,6 +10,8 @@ function check(label,expected){const result=spawnSync(process.execPath,[ignore],
 write('content/products/test.json','{"name":"edit"}');git('add','.');git('commit','-qm','save product');check('product-only save skips deployment',0);
 write('public/images/test.webp','image fixture');git('add','.');git('commit','-qm','save image');check('image and product saves skip deployment',0);
 write('content/settings.json','{}');git('add','.');git('commit','-qm','save settings');check('settings save skips deployment',0);
+write('content/categories/new.json','{}');git('add','.');git('commit','-qm','save category');check('category save skips deployment',0);
+write('content/imports/batch.json','{}');git('add','.');git('commit','-qm','save import request');check('import processing skips deployment',0);
 write('content/release.json','{"version":2}');git('add','.');git('commit','-qm','release all');check('release triggers one build including accumulated changes',1);
 // Empty catalogue build remains valid when the owner hides/deletes all products.
 const app=path.join(tmp,'empty-app');for(const dir of ['src','scripts','public','content'])fs.cpSync(path.resolve(dir),path.join(app,dir),{recursive:true});

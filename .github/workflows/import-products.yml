@@ -1,0 +1,44 @@
+name: Import products from Excel
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/imports/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: artink-product-import
+  cancel-in-progress: false
+
+jobs:
+  import-products:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate and import pending workbooks
+        run: python scripts/import-products.py
+
+      - name: Save import results
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No pending import changes."
+            exit 0
+          fi
+          git config user.name "Art Ink Importer"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/imports content/products public/images
+          git commit -m "Process Excel product import"
+          git push
