@@ -1,0 +1,31 @@
+{
+  "material": "Блузон со патент и качулка, 280g/m2, 100% памук",
+  "en": {
+    "name": "Блузон со патент и качулка WINNER",
+    "subtitle": "Блузон со патент",
+    "material": "Блузон со патент и качулка, 280g/m2, 100% памук",
+    "description": "Ubo e"
+  },
+  "slug": "zip-hoodie-5200690",
+  "code": "5200690",
+  "published": true,
+  "order": 0,
+  "sizes": "S-XXL",
+  "gallery": [
+    "/images/bluzon-winner-2.jpg"
+  ],
+  "image": "/images/bluzon-winner.jpg",
+  "category": "textiles",
+  "mk": {
+    "material": "Блузон со патент и качулка, 280g/m2, 100% памук",
+    "subtitle": "Блузон со патент",
+    "name": "Блузон со патент и качулка WINNER",
+    "description": "Ubo e"
+  },
+  "sq": {
+    "name": "Блузон со патент и качулка WINNER",
+    "subtitle": "Блузон со патент",
+    "material": "Блузон со патент и качулка, 280g/m2, 100% памук",
+    "description": "Mir o"
+  }
+}
