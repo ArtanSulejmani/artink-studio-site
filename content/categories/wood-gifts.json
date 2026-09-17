@@ -1,0 +1,16 @@
+{
+  "order": 100,
+  "en": {
+    "name": "WOOD GIFTS ",
+    "description": "Personalized wooden gifts."
+  },
+  "mk": {
+    "name": "ДРВЕНИ ПОДАРОЦИ",
+    "description": "Персонализирании дрвени подароци."
+  },
+  "sq": {
+    "name": "DHURATA PREJ DRURI",
+    "description": "Dhurata te personalizuara prej druri."
+  },
+  "slug": "wood-gifts"
+}
