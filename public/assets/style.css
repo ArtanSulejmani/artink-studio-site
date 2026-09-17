@@ -215,3 +215,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 
 @media(max-width:980px){.chapter-nav{grid-template-columns:repeat(2,minmax(0,1fr))}.chapter-nav a{min-height:180px}.look-intro{padding-top:72px}}
 @media(max-width:560px){.chapter-nav{grid-template-columns:1fr;gap:11px;margin-top:38px}.chapter-nav a{min-height:150px;padding:19px 20px}.chapter-nav .chapter-no{font-size:1.2rem}.chapter-nav strong{font-size:1.35rem}.chapter-nav small{max-width:75%}.chapter-nav b{right:17px;bottom:17px}.look-intro{padding-top:58px;padding-bottom:65px}}
+
+/* Keep the complete official logo visible; wrappers retain their layout size. */
+.site-header .brand-header{overflow:visible!important;display:flex!important;align-items:center!important;justify-content:center!important}
+.site-header .brand-header .brand-logo{display:block!important;width:84px!important;height:auto!important;max-width:none!important;object-fit:contain!important;object-position:center!important;margin:auto!important;transform:none}
+.brand-footer{overflow:visible!important}
+.brand-footer .brand-logo{display:block!important;width:190px!important;height:auto!important;max-width:none!important;object-fit:contain!important;object-position:center!important;transform:none}
+@media(max-width:980px){.site-header .brand-header .brand-logo{width:78px!important;height:auto!important}}
+@media(max-width:760px){.site-header .brand-header .brand-logo{width:72px!important;height:auto!important}.brand-footer .brand-logo{width:170px!important}}
